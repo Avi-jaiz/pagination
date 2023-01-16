@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.main-div {
+  height: max-content;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.product-card {
+  width: 20rem;
+  height: 25rem;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+  scale: 0.8;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 5);
+}
+
+.product-card:hover {
+  scale: 1;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.product-image {
+  margin-top: 0.5rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+.prod-img {
+  width: 08rem;
+  height: 08rem;
+}
+
+h2 {
+  color: green;
+}
