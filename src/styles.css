@@ -22,12 +22,13 @@
   align-items: center;
   border-radius: 0.5rem;
   scale: 0.8;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 5);
+  background-color: rgb(220, 220, 220);
+  transition: scale 500ms;
+  cursor: pointer;
 }
 
 .product-card:hover {
   scale: 1;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .product-image {
@@ -43,4 +44,39 @@
 
 h2 {
   color: green;
+}
+
+.pagination {
+  width: 100vw;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.prevBtn {
+  width: 5rem;
+  cursor: pointer;
+  background-color: red;
+  padding: 0.5rem;
+}
+
+.nextBtn {
+  width: 5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: green;
+}
+
+.numbers-white {
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.numbers-black {
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 1rem;
 }
